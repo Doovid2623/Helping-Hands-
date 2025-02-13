@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hands | Payment</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="column.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>  
+
+<body>
+     <!-- Nav start -->
+<nav>
+    <a href="index.html" class="logo"><span><img src="image/logo.png" alt="logo"></span></a>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><i class="bi bi-list"></i></label>
+    
+    <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li class="dropdown"><a href="">Category<i class="bi bi-caret-down-fill"></i></a>
+            <div class="dropdown-menu">
+                <a href="flood.html">Flood</a>
+                <a href="wildfire.html">Wildfire</a>
+                <a href="earthquake.html">Earthquake</a>
+                <a href="hurricane.html">Hurricane</a>
+            </div>
+        </li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="assistance.html">Assistance</a></li>
+        <li><a href="news.html">News</a></li>
+    </ul>
+</nav>
+<!--Navbar end-->
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <img src="image/Media.jfif" alt="Piggy Bank Image">
+            </div>
+            <div class="col-5">
+                <h1>Payment</h1>
+                <h3>Personal Information</h3>
+                <div class="input-box">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" placeholder="Ja Sari Nan" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="example@example.com" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone number">Phone number: </label>
+                    <input type="number" placeholder="09123456789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                </div>
+                <h4>You can donate from these payment systems:</h4>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <label>
+                            <img src="image/aya_pay1.png" alt="Aya Pay">
+                        </label>
+                        <br>
+                        <label for="phone number">09793848362</label>
+                        <label for="phone number">09793848363</label>
+                    </div>
+                    <div class="payment-method">
+                        <label>
+                            <img src="image/wavepay.png" alt="Wave Pay">
+                        </label>
+                        <br>
+                        <label for="phone number">09404511288</label>
+                        <label for="phone number">09404511299</label>
+                    </div>
+                    <div class="payment-method">
+                        <label>
+                            <img src="image/cbpay.png" alt="CB Pay">
+                        </label>
+                        <br>
+                        <label for="phone number">09404511288</label>
+                        <label for="phone number">09404511299</label>
+                    </div>
+                    <div class="payment-method">
+                        <label>
+                            <img src="image/kpay.png" alt="Kbz Pay">
+                        </label>
+                        <br>
+                           <label for="phone number">09793848362</label>
+                           <label for="phone number">09793848363</label>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="file_upload">Upload the screenshot of your payment receipt: </label>
+                    <input type="file" required>
+                </div>
+                <div class="button-container">
+                    <button class="submit-button">Submit</button>
+                    <a href="donate.html" class="cancel-button">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

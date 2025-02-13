@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f3ff;
+}
+.citation-container {
+    background: #d8dde6;
+    border: 3px solid #9a88c7;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    margin-top: 100px;
+}
+.citation-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+.citation-list {
+    list-style-type: disc;
+    padding-left: 30px;
+    font-size: 16px;
+ 
+}
+.citation-list li {
+    margin-bottom: 10px;
+}
+.citation-list a {
+    color: #000;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
